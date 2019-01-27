@@ -1,0 +1,44 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.clear {
+  clear: both;
+}
+header {
+  width: 100%;
+  text-align: center;
+}
+header h1{
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  color:#6294e5;
+}
+
+.equation {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.note {
+  width: 100%;
+  text-align: center;
+}
+
+#x1-value, #x2-value {
+  padding: 1.2rem;
+}
+
+.result {
+  padding: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}

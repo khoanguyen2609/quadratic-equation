@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>quadratic equation</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <body>
+    <header>
+      <h1>Quadratic Equation</h1>
+    </header>
+    <div class="clear"></div>
+    <div class="equation">
+        <b> ax<sup>2</sup> + bx + c = 0 </b>
+    </div>
+    <form class="" action="index.html" method="post">
+      <span> Insert a </span>
+      <input type="text" name="aValue" id="a-value" value=""> <br>
+      <span> Insert b </span>
+      <input type="text" name="bValue" id="b-value" value=""> <br>
+      <span> Insert c </span>
+      <input type="text" name="cValue" id="c-value" value=""> <br>
+      <div class="result">
+        <b> Result </b>
+      </div>
+        <span id="x1-value"> x1 = </span>
+        <input type="text" name="x1Value"> <br>
+        <span id="x2-value"> x2 = </span>
+        <input type="text" name="x2Value"> <br>
+      <button type="button" id="solve" onclick="equation(this.form)">Solve</button>
+      <button type="button" id="delete" onclick="deleteAll(this.form)">Delete</button>
+    </form>
+    <div class="note">
+      <p>Note: If a=0, the equation is not quadratic</p>
+    </div>
+
+  </body>
+</html>
